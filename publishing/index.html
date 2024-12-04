@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<title>portfolio :: Frontend Portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap">
+<link rel="stylesheet" href="https://fastly.jsdelivr.net/gh/xpressengine/xeicon@2.3.3/xeicon.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.6/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.6/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="js/lenis.js"></script>
+<script src="js/main.js"></script>
+</head>
+
+<body>
+<div class="wrap">
+	<header id="header">
+		<div class="hd-wrap">
+			<h1 class="logo"><a href="">Portfolio</a></h1>
+			<nav id="gnb">
+				<ul>
+					<li><a href="">HOME</a></li>
+					<li><a href="">ABOUT</a></li>
+					<li><a href="">SKILLS</a></li>
+					<li><a href="">PORTFOLIO</a></li>
+					<li><a href="">OPEN SOURCE</a></li> 
+				</ul>
+			</nav>
+		</div>
+		<div class="home">
+			<div class="title">
+				<strong>
+					<span>WEB Publisher</span>
+					<span>JO YUNA PORTFOLIO.</span>
+				</strong>
+				<span class="introduce">배움에 대한 적극적인 마음과 자세로<br class="br"> 발전해나가는 신입 웹디자이너 조유나입니다.</span>
+			</div>
+			<div class="key-img">
+				<img src="" alt="">
+			</div>
+		</div>
+	</header>
+
+	<div class="tabs">
+		<a href="">
+			<i class="accessbility">tabs</i>
+			<span></span>
+			<span></span>
+			<span></span>
+		</a>
+	</div>
+	<div class="floating_menu"> <!--mobile_menu-->
+		<div class="mobile_menu">
+			<ul>
+				<li class="active"><a href="#header">HOME</a></li>
+				<li><a href="#page1">ABOUT</a></li>
+				<li><a href="#page2">SKILLS</a></li>
+				<li><a href="#page3">PORTFOLIO</a></li>
+				<li><a href="#page4">OPEN SOURCE</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="controller">
+		<ul>
+			<li class="active">
+				<a href="" title="HOME"></a>
+				<span>HOME</span>
+			</li>
+			<li>
+				<a href="" title="ABOUT"></a>
+				<span>ABOUT</span>
+			</li>
+			<li>
+				<a href="" title="SKILLS"></a>
+				<span>SKILLS</span>
+				
+			</li>
+			<li>
+				<a href="" title="PORTFOLIO"></a>
+				<span>PORTFOLIO</span>
+			</li>
+			<li>
+				<a href="" title="OPEN SOURCE"></a>
+				<span>OPEN SOURCE</span>
+			</li>
+		</ul>
+	</div>
+	<div class="copy"><p>©YUNA All rights reserved.</p></div>
+
+	<section id="main-about">
+		<div class="main-typo">
+			<div class="typo-top">
+				<span class="italic" style="margin-right: 20px;">Beyond</span>
+				<span class="serif">Creation,</span>
+			</div>
+			<div class="typo-bottom">
+				<span >Innovative</span>
+				<span>Developer</span>
+			</div>
+		</div>
+		<div class="flex-cont">
+			<div class="img">
+				<div class="img-wrap scale-ani">
+					<img src="images/main_about1.jpg" alt="main about1">
+				</div>
+			</div>
+			<div class="con">
+				<div class="txt">
+					<p class="serif">
+						I`m a Frontend Developer
+					</p>
+					<span>웹과 모바일 환경에서 활용 가능한 기술과</span>
+					<span>어느 프로젝트에서나 해결 할 수 있는 문제 해결 능력을 키운</span>
+					<span>매력적인 사용자 경험을 창출하는 조유나 입니다.</span>
+				</div>
+			</div>
+			<div class="profile">
+				<dl class="top">
+					<dt>PROFILE</dt>
+					<dd>
+						<p class="subtitle">Name</p>
+						<p>조유나</p>
+					</dd>
+					<dd>
+						<p class="subtitle">Age</p>
+						<p>1995.07.10</p>
+					</dd>
+					<dd>
+						<p class="subtitle">Phone</p>
+						<p>010</p>
+					</dd>
+					<dd>
+						<p class="subtitle">Email</p>
+						<p>nyuu077@gamil.com</p>
+					</dd>
+				</dl>
+				<dl class="bottom">
+					<dt>EDUCATION</dt>
+					<dd>
+						<p class="subtitle">00.00</p>
+						<p>00대학교 졸업</p>
+					</dd>
+				</dl>
+			</div>
+		</div>
+		<div class="main-typo2 typo2">
+			<span>Publishing Tomorrow</span>
+			<span>With</span>
+			<span>Creativity and Vision</span>		
+		</div>
+	</section>
+	<section id="skills">
+		<div class="skill-inner">
+			<div class="main-tit">SKILLS</div>
+			<div class="skill-wrap">
+				<div class="skill-box box1">
+					<a href="">
+						<p class="pre">HTML</p>
+						<span class="pre">
+							<span class="title">인터넷 접근성, 웹 표준을 준수한 HTML을 작성</span>
+							<span>웹 접근성을 높인 Semantic Page 작성</span>
+							<span>다양한 라이브러리를 활용하여 웹을 구현</span>
+						</span>
+					</a>
+				</div>
+				<div class="skill-box box2">
+					<a href="">
+						<p class="pre">CSS</p>
+						<span class="pre">
+							<span class="title">IR 기법을 이용한 스타일 작성</span>
+							<span>화려한 CSS3 Animation 구현</span>
+							<span>반응형 웹 페이지 스타일 작성</span>
+							<span>모바일 페이지 스타일 작성</span>
+							<span>모바일 디바이스를 고려한 반응형 스타일을 구현</span>
+						</span>
+					</a>
+				</div>
+				<div class="skill-box box3">
+					<a href="">
+						<p class="pre">SCSS</p>
+						<span class="pre"><span class="title">CSS 전처리 기능 프로그래밍(SASS)</span></span>
+					</a>
+				</div>
+				<div class="skill-box box4">
+					<a href="">
+						<p class="pre">Tailwindcss</p>
+						<span class="pre"><span class="title">정의된 클래스들을 제공하여 직접 스타일을 조합</span></span>
+					</a>
+				</div>
+				<div class="skill-box box5">
+					<a href="">
+						<p class="pre">PWA</p>
+						<span class="pre"><span class="title">기존 개발 방식으로 웹 앱 빌드</span></span>
+					</a>
+				</div>
+				<div class="skill-box box6">
+					<a href="">
+						<p class="pre">JavaScript</p>
+						<span class="pre">
+							<span class="title">JavaScript AJAX를 활용한 데이터 응용</span>
+							<span>JavaScript 플러그인 활용 및 구현</span>
+							<span>Parallax 웹 페이지 구현</span>
+							<span>EcmaScript 기반 Native JavaScript 활용</span>
+							<span>외부 API 구현(Google Map, Carousel)</span>
+						</span>
+					</a>
+				</div>
+				<div class="skill-box box7">
+					<a href="">
+						<p class="pre">React</p>
+						<span class="pre">
+							<span class="title">React를 활용한 사용자 인터페이스 구현</span>
+							<span>React에서의 다양한 라이브러리 활용(Redux, Router, Axios)</span>
+							<span>JSX, JavaScript 확장 XML을 작성</span>
+						</span>
+					</a>
+				</div>
+				<div class="skill-box box8">
+					<a href="">
+						<p class="pre">Styled <br>Component</p>
+						<span class="pre"><span class="title">CSS-in-JS 접근 방식을 통해 컴포넌트 기반 스타일링</span></span>
+					</a>
+				</div>
+				<div class="skill-box box9">
+					<a href="">
+						<p class="pre">Git</p>
+						<span class="pre">
+							<span class="title">GitHub를 활용한 Git 시스템 협업 가능</span>
+							<span>GitHub를 사용하여 코드를 호율적으로 관리</span>
+							<span>협업, 코드 리뷰, 이슈 트래킹, 버전 관리등 다양한 작업을 수행</span>
+						</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="portfolio">
+		<span class="portfolio_text d_only">
+			<img src="./images/PORTFOLIO_top.png" class="portfolio_top" alt="portfolio top">
+			<img src="./images/PORTFOLIO_btm.png" class="portfolio_bottom" alt="portfolio bottom">
+		</span>
+		<span class="portfolio_title hlv m_only">PortFolio</span>
+		<div class="swiper_wrap">
+			<div class="swiper portfolioSwiper">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<div class="swiper_bg">
+							<div class="swiper_text pre">
+								<p class="cate">
+									<span>Wylie</span>
+									<!-- <span class="date">2024.10.24</span> -->
+								</p>
+								<p class="tit">사용자의 환경에 맞는 다채로운 기능을 제공하는 Progressive Web,App</p>
+								<p class="txt">
+									미디어 쿼리를 활용하여 mobile, tablet, decktop에 최적화된 레이아웃을 구현했습니다.<br>
+									섹션에 폼 형식을 넣어 사용자의 정보를 입력 부분을 만들었고 버튼 같은 시각적 요소가 명확하게 보이게 했습니다.
+									GSAP의 기본을 사용하여 웹이 동적으로 변화되도록 했습니다.
+								</p>
+								<a href="" class="hlv">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper_bg">
+							<div class="swiper_text pre">
+								<p class="cate">
+									<span>o’kichen</span>
+									<!-- <span class="date">2023.10.24</span> -->
+								</p>
+								<p class="tit">
+									모바일 사용자에게 최적화된 환경을 제공하는 모바일 전용 APP
+								</p>
+								<p class="txt">
+									웹과 다르게  UI요소들을 세로로 배치. 작은 화면에서 보다 직관적으로 보이게 navigation,button 요소들을 단순화 하였습니다.<br>
+									Swiper를 화면 크기에 맞춰 디자인하여 사용자가 모바일 상에서 콘텐츠를 이용 할 때 불편함이 없도록 하였습니다.
+								</p>
+								<a href="" class="hlv">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper_bg">
+							<div class="swiper_text pre">
+								<p class="cate">
+									<span>artcenter nabi</span>
+									<!-- <span class="date">2023.10.24</span> -->
+								</p>
+								<p class="tit">
+									css활용을 중심으로 만든 메인 페이지가 돋보이는 Web
+								</p>
+								<p class="txt">
+									pagenation을 추가하여 사용자가 슬라이드를 쉽게 탐색할 수 있도록 했습니다.<br>
+									video API를 활용하여 관련 기능을 구현하였습니다.<br>
+									navigation의 다양한 디자인을 보여주었습니다.
+								</p>
+								<a href="" class="hlv">Read More</a>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<div class="swiper_bg">
+							<div class="swiper_text pre">
+								<p class="cate">
+									<span>Wconcept</span>
+									<!-- <span class="date">2023.10.24</span> -->
+								</p>
+								<p class="tit">웹의 기본이 되는 요소를 활용 하여 만든 기본적인 Web </p>
+								<p class="txt">
+									css로 구현하는 기본 동작인 호버 효과를 통해 사용자의 Interaction에 반응하는 효과를 보여주었습니다.<br>
+									navigation이 상태에 따라 다르게 변화 하도록 만들었습니다.
+								</p>
+								<a href="" class="hlv">Read More</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="d_only">
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+					<div class="swiper-pagination hlv"></div>
+				</div>
+			</div>
+			<div class="portfolio_btn">
+				<div class="btn_s"><a href="" target="_blank">View All News</a></div>
+			</div>
+		</div>
+	</section>
+	<section id="open-source">
+		<div class="main-tit">OPEN SOURCE</div>
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<div class="thumb">
+						<a href=""><img src="images/project1.png" alt="project1"></a>
+					</div>
+					<div class="desc">
+						<div class="name serif">open source1</div>
+						<ul>
+							<li>React</li>
+							<li>JavaScript</li>
+						</ul>
+						<p>
+							React / Redux / JavaScript / Styled-component<br>
+							AI 이미지 생성 글로벌 플랫폼
+						</p>
+						<a href="" class="btn">View More</a>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="thumb">
+						<a href=""><img src="images/project2.png" alt="project2"></a>
+					</div>
+					<div class="desc">
+						<div class="name serif">open source2</div>
+						<p>
+							React를 이용하여 글 작성, 수정 및 삭제, 프로필 수정 등의 페이지로 구성되어 있는 Open Source입니다.<br>
+							작성한 글이 다른 사용자들과 소통하는 커뮤니티를 구현하였습니다.
+						</p>
+						<a href="" class="btn">View More</a>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="thumb">
+						<a href=""><img src="images/project3.png" alt="project3"></a>
+					</div>
+					<div class="desc">
+						<div class="name serif">open source3</div>
+						<p>
+							헤드 교체 식 LED 미세전류 진동<br>
+							멀티 뷰티 디바이스
+						</p>
+						<a href="" class="btn">View More</a>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="thumb">
+						<a href=""><img src="images/project4.png" alt="project4"></a>
+					</div>
+					<div class="desc">
+						<div class="name serif">open source4</div>
+						<p>
+							건강한 광채를 선사하는<br>
+							디바이스 전용 젤
+						</p>
+						<a href="" class="btn">View More</a>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="thumb">
+						<a href=""><img src="images/project5.png" alt="project5"></a>
+					</div>
+					<div class="desc">
+						<div class="name serif">open source5</div>
+						<p>
+							건강한 광채를 선사하는<br>
+							디바이스 전용 젤
+						</p>
+						<a href="" class="btn">View More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	</div>
+	<footer id="footer">
+		<div class="ft-wrap">
+			<div class="ft-left">
+				<div class="ft-logo">
+					<a href=""><span>{</span> designdigit <span>}</span></a>
+				</div>
+				<div class="ft-info">
+					<p>
+						<span><strong>PHONE</strong>010-0000-0000</span>
+						<span><strong>MAIL</strong>designdigit@naver.com</span>
+					</p>
+					<p>
+						<span><strong>GIT</strong>https://github.com/designdigit</span>
+						<span><strong>PORTFOLIO</strong>https://designdigit.github.io/portfolio</span>
+					</p>
+				</div>
+			</div>
+			<div class="ft-right">
+				<div class="ft-link">
+					<a href="">About Us</a>
+					<a href="" class="privacy-btn"><strong>개인정보처리방침</strong></a>
+				</div>
+				<div class="ft-sns">
+					<a href=""><i class="xi-linkedin"></i></a>
+					<a href=""><i class="xi-facebook-official"></i></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+</body>
+</html>

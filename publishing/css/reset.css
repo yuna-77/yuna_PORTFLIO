@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, dl, dd {
+	margin: 0;
+	padding: 0;
+}
+h1 {
+	font-size: 16px;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+ul, ol {
+	list-style: none;
+}
+img {
+	max-width: 100%;
+	vertical-align: top;
+	border: none;
+}
+
+/* default setting */
+* html * {
+	zoom: 1;
+}
+body {
+	width: 100%;
+	height: auto;
+	line-height: 1.5;
+	font-family: "Montserrat", "Noto Sans KR";
+	font-size: 16px;
+	letter-spacing: -0.03em;
+	color: #000D11;
+	background-color: #f2f2f2;
+	-webkit-text-size-adjust: none;
+	transition: background-color 0.5s;
+}
+body.dark {
+	background-color: #000d11;
+}
+.serif {
+	font-family: "Noto Serif", "Noto Serif Display";
+}
