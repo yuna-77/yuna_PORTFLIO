@@ -9,15 +9,17 @@
 
 HOME, ABOUT ME, SKILL, PROJECT, OPEN SOURCE, CONTACT(FOOTER)로 목록이 구성되어 있습니다.
 
-각 항목은 
+각 항목에 대한
+
+web, mobile 지원이 가능합니다.
 
   
 ## 사용 기능 소개
- 모든 페이지를 PageList라는 배열로 만들어 주고 PageList 배열의 각 요소에 대해 GSAP와 ScrollTrigger를 사용하여 스크롤 이벤트에 따라 애니메이션을 설정 해주었습니다.  \
+ 모든 페이지를 PageList라는 배열로 만들어 주고 PageList 배열의 각 요소에 대해 **GSAP와 ScrollTrigger를 사용하여 스크롤 이벤트에 따라 애니메이션을 설정** 해주었습니다.  \
  각 섹션에 도달할때 애니메이션이 제어되어야 하므로 타임라인을 생성 하고 그 타임라인이 스크롤 위치에 따라 애니메이션을 제어할 수 있게 설정 해주었습니다.
  
 ### `HOME`
-`gsap.timeline` 을 사용하여 텍스트 애니메이션 효과를 주었습니다.  \
+**`gsap.timeline` 을 사용하여 텍스트 애니메이션 효과**를 주었습니다.  \
 3개의 텍스트가 동시에 실현되지만 딜레이가 걸리는 디자인이어서 `stagger` 를 걸어 순차적으로 애니메이션효과를 주었습니다.
 
 ### `ABOUT ME`
@@ -31,6 +33,9 @@ home에서 어두웠던 화면이 전환 되기에 `onEnter` 와 `onLeave` funct
 
 
 ### `OPEN SOURCE`
+
+### `CONTACT(FOOTER)`
+
 
 ## npm test
 
