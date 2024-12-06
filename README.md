@@ -1,7 +1,16 @@
 # PortFolio
 
-안녕하세요. 배움에 대한 적극적인 마음과 자세로 발전해나가는 신입 웹디자이너 조유나입니다.
-저의 ReadMe를 소개 합니다.
+안녕하세요.😀 배움에 대한 적극적인 마음과 자세로 발전해나가는 신입 웹퍼블리셔, 프론트엔더 조유나입니다.  \
+
+저의 PortFolio ReadMe를 소개 합니다.  \
+[🔗] (https://yunaportfolio.vercel.app/)
+
+  \
+Hello! 😀  \
+I am Jo Yuna. A passionate and proactive junior web publisher and front-end developer, committed to continuous learning and improvement.  \
+
+Here is an introduction to my Portfolio ReadMe.
+
 
 ## 프로젝트 설명
 
@@ -42,17 +51,7 @@ home에서 어두웠던 화면이 전환 되기에 `onEnter` 와 `onLeave` funct
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
