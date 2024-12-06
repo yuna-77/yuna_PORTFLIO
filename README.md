@@ -5,15 +5,26 @@
 ## 프로젝트 설명
 
 In the project directory, you can run:
-![Luvcong's GitHub stats](https://github-readme-stats.vercel.app/api?username=Luvcong&count_private=true)
-출처: https://peachcong.tistory.com/35 [PEACHCONG:티스토리]
-## 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+  
+## 사용 기능
+ 모든 페이지를 PageList라는 배열로 만들어 주고 PageList 배열의 각 요소에 대해 GSAP와 ScrollTrigger를 사용하여 스크롤 이벤트에 따라 애니메이션을 설정해 보았습니다.
+ 각 섹션에 도달할때 애니메이션이 제어되어야 하는것이 목적이고, 각 섹션 마다 타임라인을 생성 하고 그 타임라인이 스크롤 위치에 따라 애니메이션을 제어할 수 있게 설정해 보았습니다.
+ 
+### `HOME`
+`gsap.timeline`을 사용하여 텍스트 애니메이션 효과를 주었습니다.
+한 문단씩 애니메이션이 실행되는 디자인이어서 `stagger`를 걸어 순차적으로 애니메이션효과를 주었습니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### `ABOUT ME`
+
+
+### `SKILL`
+
+
+### `PROJECT`
+
+
+### `OPEN SOURECE`
 
 ### `npm test`
 
