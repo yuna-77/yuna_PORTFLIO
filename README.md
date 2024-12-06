@@ -1,12 +1,13 @@
-# Getting Started with Create React App
+# PortFolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+안녕하세요. 배움에 대한 적극적인 마음과 자세로 발전해나가는 신입 웹디자이너 조유나입니다.
 
-## Available Scripts
+## 프로젝트 설명
 
 In the project directory, you can run:
-
-### `npm start`
+![Luvcong's GitHub stats](https://github-readme-stats.vercel.app/api?username=Luvcong&count_private=true)
+출처: https://peachcong.tistory.com/35 [PEACHCONG:티스토리]
+## 
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
